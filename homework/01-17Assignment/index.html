@@ -24,10 +24,19 @@
     <?xml version="1.0" standalone="no"?>
     <svg width="1100" height="750" version="1.1" xmlns="http://www.w3.org/2000/svg">
       
+      <defs>
+        <filter id="f1" x="-20" y="-20" height="75" width="75">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+        </filter>
+      </defs>
+      
+        <ellipse cx="200" cy="80" rx="55" ry="35" filter="url(#f1)" />
+
       <polygon points="355,14 483,679 885,355" fill="khaki" stroke="none" stroke-width="0" />
       <polygon points="495,511 456,537.75 473,635.4 540,554" fill="steelblue" stroke="none" stroke-width="0" fill-opacity="0.8" />
       <polygon points="456,538 409,570 444,672 474,634" fill="darkgreen" stroke="none" stroke-width="0" />
-      <circle cx="730" cy="258" r="26" fill="beige" stroke="black" stroke-width="2" stroke-opacity="0.6" />
+      <circle cx="730" cy="258" r="30" fill="black" stroke="none" stroke-width="0" filter="url(#f1)" />
+      <circle cx="730" cy="258" r="26" fill="beige" stroke="none" stroke-width="0" />
       <circle cx="728" cy="259" r="22" fill="black" stroke="none" stroke-width="0" />
       <circle cx="728" cy="261" r="8" fill="olivedrab" stroke="none" stroke-width="0" />
       
