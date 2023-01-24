@@ -26,7 +26,7 @@
       
       <polygon points="355,14 483,679 885,355" fill="khaki" stroke="none" stroke-width="0" />
       
-    <!--Create cubic Bézier curves: M (start point), C x1 y1, x2 y2 (coordinates of two control points), x y (endpoint of the curve)-->
+    <!--Create cubic Bézier curves: M (start point), C x1 y1, x2 y2 (coordinates of two control (Bezier) points), x y (endpoint of the curve)-->
       <path d="M 776 451 C 780 415.75, 784.5 391, 809 345" stroke="darkorange" stroke-width="14" fill="none" />
       <path d="M 784 452 C 801 281, 957 230, 1041.5 242" stroke="black" stroke-width="4" fill="none" />
       <path d="M 769 397 C 748 321, 868 309, 849.5 395" stroke="black" stroke-width="4" fill="none" />
@@ -35,9 +35,9 @@
       
       <line x1="718" y1="294" x2="957" y2="429" stroke="black" stroke-width="3" />
       
-    <!--Create a sequence of cubic Bézier curves using the 'S' command: M (start point), C x1 y1, x2 y2 (coordinates of two control (Bezier) points), 
-        x y (endpoint of the curve), S x3 y3 (control point of next end point), x y (end point) -->
-      <path d="M 957 429 C 969 437, 947 437, 944 437 S 948 441, 949 444 S 940 444, 940 446" stroke="black" stroke-width="3" fill="transparent"/>
+    <!--Create a sequence of cubic Bézier curves: M (start point), C x1 y1, x2 y2 (coordinates of two control points), 
+        x y (endpoint of the curve), C x3 y3, x4 y4, x y (next end point)...-->
+      <path d="M 957 429 C 969 437, 949 437, 945 438 C 941 439, 938 447, 942 447" stroke="black" stroke-width="3" fill="transparent"/>
       
     <!--Create ellipse and rotate 124 deg clockwise about the center point-->
       <ellipse cx="492" cy="416" rx="58" ry="43" fill="saddlebrown" stroke="none" stroke-width="0" transform="rotate(124, 492, 416)" />
