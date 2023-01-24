@@ -39,16 +39,10 @@
         x y (endpoint of the curve), C x3 y3, x4 y4, x y (next end point)...-->
       <path d="M 957 429 C 969 437, 949 437, 945 438 C 941 439, 962 447, 942 447 C 938 447, 955 453, 943 454" stroke="black" stroke-width="3" fill="transparent"/>
       
-    <!--Create a quadratic Bézier curve: M (start point), Q x1 y1 (coordinates of control point), x y (endpoint of the curve)-->
+    <!--Create a quadratic Bézier curve with rounded stroke-linecap: M (start point), Q x1 y1 (coordinates of control point), x y (endpoint of the curve)-->
       <path d="M 943 454 Q 824 464, 703 493" stroke="black" stroke-width="3" stroke-linecap="round" fill="transparent" />
       
-      <line x1="703" y1="493" x2="676" y2="435" stroke="black" stroke-width="3" />
-      <line x1="676" y1="435" x2="737" y2="410" stroke="black" stroke-width="3" />
-      <line x1="737" y1="410" x2="741" y2="386" stroke="black" stroke-width="3" />
-      <line x1="741" y1="386" x2="712" y2="378" stroke="black" stroke-width="3" />
-      <line x1="712" y1="378" x2="718" y2="294" stroke="black" stroke-width="3" />
-      
-    <!--Create a polyline with rounded stroke-linecap and stroke-linejoin-->
+    <!--Create a polyline with rounded stroke-linecap and stroke-linejoin, where the <g> element sets common properties on objects if needed-->
       <g stroke-width="3" fill="none">
         <polyline points="703 493 676 435 737 410 741 386 712 378 718 294" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
       </g>
