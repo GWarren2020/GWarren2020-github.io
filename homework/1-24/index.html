@@ -4,8 +4,6 @@
     <meta charset="utf-8" />
     <title>JavaScript</title>
 
-    <!--Loads external CSS stylesheet-->
-    <link rel="stylesheet" href="style24.css">
 
     <!--This is a script file-->
     <script>
@@ -81,7 +79,7 @@
 
         printName("Sir");
       
-        // A function with a numberical return value
+        // A function with a numerical return value
         var addValues = function(val1, val2){
           // Add two values
           let sum = val1 + val2;
@@ -141,8 +139,20 @@
         // check if the input is actually a number and that it's greater than 0.
 
 
-        Math.sqrt(3);
-        console.log(Math.sqrt(3));
+        var SquareRoot = function(val) {
+          
+            if(isNaN(val)){
+            let sq = Math.sqrt(val);
+            return sq;
+
+            document.write(val + " is not a number <br/>");
+            } else {
+	          document.write(val + " is a number <br/>");
+            }
+	          
+        }
+
+
 
     </script>
 
