@@ -13,6 +13,8 @@
         var name = "ARTG";
 
         // Print command: displaying/printing the value of num/name
+
+        // Open homepage, web developer tools, 'console' to see output of this exercise
         console.log(num);
 
         // arithmetic operations
@@ -54,6 +56,9 @@
           color: "Green",
           street: "700 Huntington Ave",
           zip: "02118"
+          greetings: function(name){
+            console.log("Hey" + name + "!")
+          }
         }
 
         console.log(newObject.street);
@@ -68,6 +73,35 @@
         printHello();
 
         // A function without a string input
+        // Inside parentheses, pass a variable
+        var printName =  function(name){
+          console.log("Hello" + name);
+        }
+
+        printName("Sir");
+      
+        // A function with a numberical return value
+        var addValues = function(val1, val2){
+          // Add two values
+          let sum = val1 + val2;
+          // Return their sum
+          return sum;
+        }
+
+        var mySum = addValues(10, 10);
+
+        console.log(mySum);
+
+        var expValues = function(val){
+          // Exponentiate given value using 2
+          let exp = val**2;
+          // Return their sumr
+          return exp;
+        }
+
+        var myExp = expValues(10);
+
+        console.log(myExp);
 
         
     </script>
