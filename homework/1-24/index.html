@@ -80,6 +80,7 @@
         printName("Sir");
       
         // A function with a numerical return value
+        //Return: do not add any lines after
         var addValues = function(val1, val2){
           // Add two values
           let sum = val1 + val2;
@@ -139,22 +140,27 @@
         // check if the input is actually a number and that it's greater than 0.
 
 
-        var val = 3;
-        var SquareRoot = function(val) {
-          
-            if(!isNaN(val)){
-            let sq = Math.sqrt(val);
-            return sq;
-            }
-            console.log('It is a number');
-            else {
-            console.log('It is not a number');
+          function returnsSq(val) {
+            if (isNaN(val)) {
+              console.log("Not a number.")
+            } else {
+                return Math.sqrt(val);
             }
           }
 
 
+        // FOR HOMEWORK ASSIGNMENT...
 
     </script>
-
   </head>
   <body>
+    <div>
+      <h1 id="HL">Hello world.</h1>
+    </div>
+
+    <script>
+      document.getElementById("HL").innerHTML = "Changed the text";
+      document.getElementById("HL").style.color = "green";
+    </script>
+  </body>
+</html>
