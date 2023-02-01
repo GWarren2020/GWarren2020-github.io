@@ -42,5 +42,3 @@ function updateAll() {
   updateData();
   update();
 }
-
-updateAll();
