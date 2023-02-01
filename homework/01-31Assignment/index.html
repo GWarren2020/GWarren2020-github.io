@@ -39,7 +39,7 @@
 	return data;
 }
 
-function update(data) {
+	function update(data) {
 	d3.select('.chart')
 		.selectAll('circle')
 		.data(data)
@@ -65,15 +65,15 @@ function update(data) {
 		.style('fill', 'orange');
 }
 
-function updateAll() {
+	function updateAll() {
 	let myData = getData();
 	console.log("myData", myData);
 	update(myData);
 }
 
-updateAll();
+	updateAll();
 
-d3.select("button")
+	d3.select("button")
 	.on("click", updateAll);
   </script>
 
