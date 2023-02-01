@@ -1,47 +1,51 @@
-function getData() {
-	let data = [];
-	let numItems = Math.ceil(Math.random() * 5);
+let data = [];
 
+function updateData() {
+	data = [];
+	let numItems = Math.ceil(Math.random() * 10);
 	for(let i=0; i<numItems; i++) {
-		data.push(40);
+		data.push(Math.random() * 800);
 	}
-
-	return data;
 }
 
-function update(data) {
-	d3.select('.chart')
+function update() {
+	d3.select('svg')
 		.selectAll('circle')
 		.data(data)
 		.join(
 			function(enter) {
-				return enter.append('circle')
-					.style('opacity', 0.25);
+				return enter
+					.append('circle')
+					.attr('cy', 50)
+					.attr('cx', function(d) {
+						return d;
+					})
+					.attr('r', 40)
+					.style('opacity', 0);
 			},
 			function(update) {
-				return update.style('opacity', 1);
+				return update;
 			},
-      function(exit) {
-      return exit.remove();
-    })
-  
-		.attr('cx', function(d, i) {
-			return i * 100;
+			function(exit) {
+				return exit
+					.transition()
+					.duration(1000)
+					.attr('cy', 500)
+					.remove();
+			}
+		)
+		.transition()
+		.duration(1000)
+		.attr('cx', function(d) {
+			return d;
 		})
-		.attr('cy', 50)
-		.attr('r', function(d) {
-			return 0.5 * d;
-		})
-		.style('fill', 'orange');
+		.style('opacity', 0.75);
 }
 
 function updateAll() {
-	let myData = getData();
-	console.log("myData", myData);
-	update(myData);
+	updateData();
+	update();
 }
 
 updateAll();
-
-d3.select("button")
-	.on("click", updateAll);
+	
