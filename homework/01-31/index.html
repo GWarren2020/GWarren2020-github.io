@@ -4,6 +4,9 @@
     <!--Loads an external JS file-->
     <script src="scripts/myFunctions.js"></script>
 
+    <!--Loads external CSS stylesheet-->
+    <link rel="stylesheet" href="style31.css"?
+
     <!--Loads the D3.js library v7-->
     <script src="http://d3js.org/d3.v7.min.js"></script>
 
@@ -25,20 +28,23 @@
     <script>
         var page_title = d3.select('#HL');
 
+        
         // Change indiv element styles
         // (attribute, value)
         page_title.style("color", "blue");
         page_title.style("font-size", "60px");
+
 
         // Chain multiple changes one after the other
         page_title.style("color", "green")
             .style("background-color", "pink")
             .style("font-size", "50px");
 
+
         // Changing element attributes
         // Assign a new class to the h1 tag
 
-        page_title.attr("class",)
+        page_title.attr("class", "ComicText");
     </script>
 
 </html>
