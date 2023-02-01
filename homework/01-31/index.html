@@ -63,7 +63,8 @@
 
     </script>
 
-    
+
+    <!---'COMMENT OUT' A SECION THIS WAY-->
     <!--Part B
         
         <div>
@@ -82,7 +83,7 @@
 
     <!--Part C: ARRAYS: this is a data array with data points-->
 
-    <div>
+    <!--<div>
         <svg width="760" height="200" id="data-viz">
             <rect width="760" height="200" style="fill:white;stroke-width:1;stroke:black" />
 
@@ -93,11 +94,10 @@
             <circle cx = "480"/>
 
         </svg>
-    </div> 
+    </div> -->
 
     <script>
 
-        
         var data1 = [
             {
                 country:"usa",
@@ -140,7 +140,19 @@
             var circles = d3.select("#data-viz").selectAll("circle")
                 .data(dataArray, function(d){
                     return d.country;
-        };
+                });
+
+        // Entering circles
+        circles.enter().append("circle")
+                .fill("fill", "green")
+                
+                .attr("cy", "100")
+                .attr("cx", randomPosition)
+                .attr("r", "0")
+                .transition().duration(1000)
+                .attr()
+
+            }
 
     </script>
 
