@@ -2,7 +2,7 @@
 <html>
 <head>
     <!--Loads an external JS file-->
-    <script src="scripts/myFunctions.js"></script>
+    <script src="01-31/scripts/myFunctions.js"></script>
 
     <!--Loads external CSS stylesheet-->
     <link rel="stylesheet" href="style31.css"?
@@ -17,6 +17,12 @@
         <h1 id="HL">JS Libraries, <br> D3.js and Data Manipulation</h1>
     </div>
 
+    <p>This is an illustration of</p>
+    <p>the D3 fn .selectAll</p>
+    <p>for changing multiple elements</p>
+
+
+
     <!--PART A-->
 
     <script>
@@ -28,7 +34,7 @@
     <script>
         var page_title = d3.select('#HL');
 
-        
+
         // Change indiv element styles
         // (attribute, value)
         page_title.style("color", "blue");
@@ -45,6 +51,12 @@
         // Assign a new class to the h1 tag
 
         page_title.attr("class", "ComicText");
+
+
+        // Change multiple elements styles or attributes
+        d3.selectAll("p").style("text-align", "center")
+            .attr("class", "comicText");
+
     </script>
 
 </html>
