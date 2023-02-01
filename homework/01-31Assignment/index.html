@@ -16,12 +16,13 @@
 <p>A JavaScript function that uses enter/update/exit elements to draw and control an animation<br>
    that involves SVG shapes, with animation driven according to a selected data array.</p>
 
-   <div>
-    <svg width="600" height="100">
-      <g class="chart">
-      </g>
+    <div>
+    <svg width="800" height="150">
     </svg>
-  </div>
+    </div>
+     <div>
+    <button onClick="updateAll();">Update data</button>
+    </div>
 
   <script>
     function getData() {
@@ -72,7 +73,7 @@ updateAll();
 d3.select("button")
 	.on("click", updateAll);
   </script>
-  
+
   <button>Update</button>
 
 </html>
