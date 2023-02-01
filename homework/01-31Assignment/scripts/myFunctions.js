@@ -1,50 +1,44 @@
-let data = [];
+function getData() {
+	let data = [];
+	let numItems = Math.ceil(Math.random() * 5);
 
-function updateData() {
-	data = [];
-	let numItems = Math.ceil(Math.random() * 10);
 	for(let i=0; i<numItems; i++) {
-		data.push(Math.random() * 800);
+		data.push(40);
 	}
+
+	return data;
 }
 
-function update() {
-	d3.select('svg')
+function update(data) {
+	d3.select('.chart')
 		.selectAll('circle')
 		.data(data)
 		.join(
 			function(enter) {
-				return enter
-					.append('circle')
-					.attr('cy', 50)
-					.attr('cx', function(d) {
-						return d;
-					})
-					.attr('r', 40)
-					.style('opacity', 0);
+				return enter.append('circle')
+					.style('opacity', 0.25);
 			},
 			function(update) {
-				return update;
-			},
-			function(exit) {
-				return exit
-					.transition()
-					.duration(1000)
-					.attr('cy', 500)
-					.remove();
+				return update.style('opacity', 1);
 			}
 		)
-		.transition()
-		.duration(1000)
-		.attr('cx', function(d) {
-			return d;
+		.attr('cx', function(d, i) {
+			return i * 100;
 		})
-		.style('opacity', 0.75);
+		.attr('cy', 50)
+		.attr('r', function(d) {
+			return 0.5 * d;
+		})
+		.style('fill', 'orange');
 }
 
 function updateAll() {
-	updateData();
-	update();
+	let myData = getData();
+	console.log("myData", myData);
+	update(myData);
 }
 
 updateAll();
+
+d3.select("button")
+	.on("click", updateAll);
