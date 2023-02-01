@@ -63,9 +63,8 @@
 
     </script>
 
-
-    <!--Part B-->
-    <script>
+    
+    <!--Part B
         
         <div>
             <svg width="760" height="200" id="static-circles">
@@ -78,15 +77,70 @@
                 <circle cx = "480"/>
 
             </svg>
-        </div>
-    </script>
+        </div> -->
 
 
-    <!--Part C: Arrays-->
+    <!--Part C: ARRAYS: this is a data array with data points-->
+
+    <div>
+        <svg width="760" height="200" id="data-viz">
+            <rect width="760" height="200" style="fill:white;stroke-width:1;stroke:black" />
+
+            <circle/>
+            <circle cx = "120"/>
+            <circle cx = "240"/>
+            <circle cx = "360"/>
+            <circle cx = "480"/>
+
+        </svg>
+    </div> 
 
     <script>
-        
 
+        
+        var data1 = [
+            {
+                country:"usa",
+                value: 12412341
+            },
+            {
+                country:"mex",
+                value: 24318650
+            }
+        ];
+
+        var data2 = [
+            {
+                country:"chn",
+                value: 65430234
+            },
+            {
+                country:"mex",
+                value: 24609650
+            }
+        ]    
+
+        var data3 = [
+            {
+                country:"chn",
+                value: 65430234
+            },
+            {
+                country:"mex",
+                value: 24609650
+            },
+            {
+                country:"usa",
+                value: 22464340
+            }
+        ]
+
+        // Function that draws circles using data arrays
+        function drawCircles(dataArray) {
+            var circles = d3.select("#data-viz").selectAll("circle")
+                .data(dataArray, function(d){
+                    return d.country;
+        };
 
     </script>
 
