@@ -11,26 +11,23 @@
             .axis path  {fill:none;}
             .axis text {font-size:0.7em;fill:#555;font-family:sans-serif}
         </style>
-        <!--<script src="http://d3js.org/d3.v3.js"></script>-->
-
-         <!--Loads the D3.js library v7-->
-        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="http://d3js.org/d3.v3.js"></script>
     </head>
     <body>
-        
+
         <script>
-            
+
             //2 different data arrays
             var dataArray1 = [30,35,45,55,70];
             var dataArray2 = [50,55,45,35,20,25,25,40];
-            
+
             //globals
             var dataIndex=1;
             var xBuffer=50;
             var yBuffer=150;
             var lineLength=400;
-            
-            
+
+
             //create main svg element
             var svgDoc = d3.select("body").append("svg")
 
@@ -38,14 +35,14 @@
                 .attr("x",xBuffer+(lineLength/2))
                 .attr("y",50)
                 .text("dataset"+dataIndex);
-            
+
             //create axis line
             svgDoc.append("line")
                 .attr("x1",xBuffer)
                 .attr("y1",yBuffer)
                 .attr("x1",xBuffer+lineLength)
                 .attr("y2",yBuffer)
-            
+
             //create basic circles
             svgDoc.append("g").selectAll("circle")
                 .data(eval("dataArray"+dataIndex))
@@ -57,7 +54,7 @@
                 })
                 .attr("cy",yBuffer)
                 .attr("r",function(d,i){return d});
-            
+
             //button to swap over datasets
             d3.select("body").append("button")
                 .text("change data")
@@ -71,7 +68,7 @@
                     //rejoin data
                     var circle = svgDoc.select("g").selectAll("circle")
                         .data(eval("dataArray"+dataIndex));
-                    
+
                     circle.exit().remove();//remove unneeded circles
                     circle.enter().append("circle")
                         .attr("r",0);//create any new circles needed
@@ -90,7 +87,7 @@
 
                 });//end click function
 
-            
+
         </script>
     </body>
 </html>
