@@ -1,4 +1,4 @@
-let data = [];
+let data = [40, 10, 20, 60, 30];
 
 function updateData() {
 	data = [];
