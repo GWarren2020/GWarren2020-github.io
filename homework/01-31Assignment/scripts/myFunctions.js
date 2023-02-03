@@ -1,44 +1,30 @@
-function getData() {
-	let data = [];
-	let numItems = Math.ceil(Math.random() * 5);
+let data = [];
 
-	for(let i=0; i<numItems; i++) {
-		data.push(40);
+function updateData() {
+	data = [];
+	for(let i=0; i<5; i++) {
+		data.push(Math.random() * 800);
 	}
-
-	return data;
 }
 
-function update(data) {
-	d3.select('.chart')
+function update() {
+	d3.select('svg')
 		.selectAll('circle')
 		.data(data)
-		.join(
-			function(enter) {
-				return enter.append('circle')
-					.style('opacity', 0.25);
-			},
-			function(update) {
-				return update.style('opacity', 1);
-			}
-		)
-		.attr('cx', function(d, i) {
-			return i * 100;
-		})
+		.join('circle')
 		.attr('cy', 50)
-		.attr('r', function(d) {
-			return 0.5 * d;
-		})
-		.style('fill', 'orange');
+		.attr('r', 40)
+		.transition()
+		.duration(1000)
+		.ease(d3.easeBounceOut)
+		.attr('cx', function(d) {
+			return d;
+		});
 }
 
 function updateAll() {
-	let myData = getData();
-	console.log("myData", myData);
-	update(myData);
+	updateData();
+	update();
 }
 
 updateAll();
-
-d3.select("button")
-	.on("click", updateAll);
