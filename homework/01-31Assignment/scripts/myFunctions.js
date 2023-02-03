@@ -1,7 +1,7 @@
-let data = [40, 10, 20, 60, 30];
+let data = [];
 
 function updateData() {
-	data = [40, 10, 20, 60, 30];
+	data = [];
 	let numItems = Math.ceil(Math.random() * 10);
 	for(let i=0; i<numItems; i++) {
 		data.push(Math.random() * 800);
