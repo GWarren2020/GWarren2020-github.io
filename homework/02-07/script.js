@@ -62,6 +62,12 @@ console.log(d);
 
 d3.csv("datasets/cities-sm.csv").then(parseLOG);
 
+function parseLOG(d) {
+
+    console.log(d);
+    
+}
+
 // NOTE 1: In CSV files, the first row of the file is expected 
 //         to be the key/names for each data point.
 // NOTE 2: When a CSV file is loaded, all values paired with keys 
@@ -76,6 +82,12 @@ d3.csv("datasets/cities-sm.csv").then(parseLOG);
 // complex things like functions, arrays, and even other JavaScript objects.
 
 d3.json("datasets/countrycode-sm.json").then(parseLOG);
+
+function parseLOG(d) {
+
+    console.log(d);
+    
+ }
 
 
 // 4. Loading Data from a Public API
