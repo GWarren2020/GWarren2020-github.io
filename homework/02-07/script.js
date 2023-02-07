@@ -38,15 +38,15 @@ Dependents: D3, file.txt, cities-sm.csv, countrycode-sm.json
 // Here, we load a txt file just print its contents in the console.
 // Here is the general syntax for the D3 method:
 
-//     d3.text("source/path to text file").then(function(data){ ... })
+d3.text("datasets/file.txt").then(parseLOG);
 
 // The function inside the dot notation .then(....) is called a 
 // CALLBACK function. For example, here is one that simply prints 
 // the data in the console.
 
-// function parseLOG(d) {
+function parseLOG(d) {
 
-//     console.log(d);
+console.log(d);
 
 // }
 
