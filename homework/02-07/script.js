@@ -48,7 +48,7 @@ function parseLOG(d) {
 
 console.log(d);
 
-// }
+}
 
 // We supply this function to the d3.text() method in this way:
 
