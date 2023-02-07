@@ -38,17 +38,17 @@ Dependents: D3, file.txt, cities-sm.csv, countrycode-sm.json
 // Here, we load a txt file just print its contents in the console.
 // Here is the general syntax for the D3 method:
 
-d3.text("datasets/file.txt").then(parseLOG);
+// d3.text("datasets/file.txt").then(parseLOG);
 
 // The function inside the dot notation .then(....) is called a 
 // CALLBACK function. For example, here is one that simply prints 
 // the data in the console.
 
-function parseLOG(d) {
+//function parseLOG(d) {
 
-console.log(d);
+//console.log(d);
 
-}
+//}
 
 // We supply this function to the d3.text() method in this way:
 
@@ -60,13 +60,13 @@ console.log(d);
 // The following line loads a CSV file and prints its content using
 // the same callback function as before. 
 
-d3.csv("datasets/cities-sm.csv").then(parseLOG);
+// d3.csv("datasets/cities-sm.csv").then(parseLOG);
 
-function parseLOG(d) {
+// function parseLOG(d) {
 
-    console.log(d);
+    // console.log(d);
     
-}
+// }
 
 // NOTE 1: In CSV files, the first row of the file is expected 
 //         to be the key/names for each data point.
@@ -81,13 +81,13 @@ function parseLOG(d) {
 // defined with pairs of keys/names and values but it can also contain more
 // complex things like functions, arrays, and even other JavaScript objects.
 
-d3.json("datasets/countrycode-sm.json").then(parseLOG);
+// d3.json("datasets/countrycode-sm.json").then(parseLOG);
 
-function parseLOG(d) {
+// function parseLOG(d) {
 
-    console.log(d);
+    // console.log(d);
     
- }
+ // }
 
 
 // 4. Loading Data from a Public API
@@ -97,22 +97,22 @@ function parseLOG(d) {
 // https://github.com/public-apis/public-apis/blob/master/README.md
 // https://www.kaggle.com/datasets
 
-let urlJSON = "https://datausa.io/api/data?drilldowns=State&measures=Population&year=latest";
+// let urlJSON = "https://datausa.io/api/data?drilldowns=State&measures=Population&year=latest";
 
-d3.json(urlJSON).then(parseLOG);
+// d3.json(urlJSON).then(parseLOG);
 
 
 // Loading Data from a REALTIME Public API with a fixed time period for fetching/displaying data
 
-let urlRealTime = "https://whiteboard.datawheel.us/api/google-analytics/realtime/random";
+// let urlRealTime = "https://whiteboard.datawheel.us/api/google-analytics/realtime/random";
 
-function loadData() {
+// function loadData() {
 
-d3.json(urlRealTime).then(parseLOG);
+// d3.json(urlRealTime).then(parseLOG);
 
-}
+// }
 
-setInterval(loadData, 1000);
+// setInterval(loadData, 1000);
 
 
 
@@ -137,7 +137,13 @@ setInterval(loadData, 1000);
 //       change you make at one point acts on the data it receives from a change
 //       in a previous point.  
 
-// d3.csv("datasets/cities-sm.csv").then(function(data){
+d3.csv("datasets/cities-sm.csv").then(parseLog);
+
+    function parseLOG(d) {
+
+    console.log(d);
+    
+}
     
     // This accesses the first row of the csv dataset
 
