@@ -60,7 +60,7 @@ console.log(d);
 // The following line loads a CSV file and prints its content using
 // the same callback function as before. 
 
-// d3.csv("datasets/cities-sm.csv").then(parseLOG);
+d3.csv("datasets/cities-sm.csv").then(parseLOG);
 
 // NOTE 1: In CSV files, the first row of the file is expected 
 //         to be the key/names for each data point.
@@ -75,7 +75,7 @@ console.log(d);
 // defined with pairs of keys/names and values but it can also contain more
 // complex things like functions, arrays, and even other JavaScript objects.
 
-// d3.json("datasets/countrycode-sm.json").then(parseLOG);
+d3.json("datasets/countrycode-sm.json").then(parseLOG);
 
 
 // 4. Loading Data from a Public API
