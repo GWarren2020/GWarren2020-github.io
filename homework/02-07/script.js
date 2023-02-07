@@ -97,22 +97,22 @@ function parseLOG(d) {
 // https://github.com/public-apis/public-apis/blob/master/README.md
 // https://www.kaggle.com/datasets
 
-// let urlJSON = "https://datausa.io/api/data?drilldowns=State&measures=Population&year=latest";
+let urlJSON = "https://datausa.io/api/data?drilldowns=State&measures=Population&year=latest";
 
-// d3.json(urlJSON).then(parseLOG);
+d3.json(urlJSON).then(parseLOG);
 
 
 // Loading Data from a REALTIME Public API with a fixed time period for fetching/displaying data
 
-// let urlRealTime = "https://whiteboard.datawheel.us/api/google-analytics/realtime/random";
+let urlRealTime = "https://whiteboard.datawheel.us/api/google-analytics/realtime/random";
 
-// function loadData() {
+function loadData() {
 
-    // d3.json(urlRealTime).then(parseLOG);
+d3.json(urlRealTime).then(parseLOG);
 
-// }
+}
 
-// setInterval(loadData, 1000);
+setInterval(loadData, 1000);
 
 
 
