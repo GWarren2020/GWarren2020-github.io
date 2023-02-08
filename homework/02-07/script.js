@@ -44,6 +44,8 @@ Dependents: D3, file.txt, cities-sm.csv, countrycode-sm.json
 // CALLBACK function. For example, here is one that simply prints 
 // the data in the console.
 
+// THE FOLLOWING FN MUST BE DEFINED FIRST (BEFORE USING BELOW)
+
 //function parseLOG(d) {
 
 //console.log(d);
