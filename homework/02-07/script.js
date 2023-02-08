@@ -154,7 +154,6 @@ d3.csv("datasets/cities-sm.csv").then(function(data) {
     // This accesses the first row of the csv dataset
 
     console.log(data[0]);
-})
 
     // Change values using the .forEach() method that loops
     // through the rows of the dataset. In this way, you 
@@ -227,4 +226,4 @@ d3.csv("datasets/cities-sm.csv").then(function(data) {
     // // Then, you can query the map for a particular group.
     // console.log(grouped_data.get("boston"));
 
-// });
+});
