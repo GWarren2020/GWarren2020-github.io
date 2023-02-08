@@ -147,7 +147,7 @@ d3.csv("datasets/cities-sm.csv").then(parseLog);
     
     // This accesses the first row of the csv dataset
 
-    // console.log(data[0]);
+    console.log(data[0]);
 
     // Change values using the .forEach() method that loops
     // through the rows of the dataset. In this way, you 
@@ -160,14 +160,14 @@ d3.csv("datasets/cities-sm.csv").then(parseLog);
     //      b. Use the unary operator +
     //  The following function uses method (b).
 
-    // data.forEach( function(d) {
+    data.forEach( function(d) {
 
     //     // Here, we alter the keys "population" and "land area" only.
     //     // Thus, we leave "city" and "state" as they are.
-    //     d.population = +d.population;
-    //     d["land area"] = +d["land area"];
+    d.population = +d.population;
+    d["land area"] = +d["land area"];
 
-    // });
+    });
 
     // Filtering Data 
     
@@ -175,14 +175,14 @@ d3.csv("datasets/cities-sm.csv").then(parseLog);
     // filled with elements that pass a particular test provided by a 
     // custom function.
 
-    // let filtered_data = data.filter(function(d) {
+    let filtered_data = data.filter(function(d) {
 
     //     // Return the object iff its key is equal to a specified string
-    //     return d.state === "NY";
+    return d.state === "NY";
 
-    // })
+    })
 
-    // console.log(filtered_data);
+    console.log(filtered_data);
 
     // Finding MINIMUM or MAXIMUM value of a numerical variable
 
