@@ -1,4 +1,4 @@
-import { db } from '@observablehq/the-moma-collection-data-exploration'
+import {db} from '@observablehq/the-moma-collection-data-exploration'
 
 import {db} from "@observablehq/the-moma-collection-data"
 
