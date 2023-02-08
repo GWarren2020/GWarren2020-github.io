@@ -137,13 +137,15 @@ Dependents: D3, file.txt, cities-sm.csv, countrycode-sm.json
 //       change you make at one point acts on the data it receives from a change
 //       in a previous point.  
 
-d3.csv("datasets/cities-sm.csv").then(parseLog);
-
-    function parseLOG(d) {
+function parseLOG(d) {
 
     console.log(d);
     
 }
+
+d3.csv("datasets/cities-sm.csv").then(parseLOG);
+
+
     
     // This accesses the first row of the csv dataset
 
