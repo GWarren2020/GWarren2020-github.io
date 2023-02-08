@@ -147,7 +147,7 @@ console.log(d);
     
 //}
 
-d3.csv("datasets/cities-sm.csv").then(parseLOG);
+d3.csv("datasets/cities-sm.csv").then(function(data));
 
 
     
