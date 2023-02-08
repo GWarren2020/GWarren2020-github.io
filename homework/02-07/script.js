@@ -48,11 +48,11 @@ Dependents: D3, file.txt, cities-sm.csv, countrycode-sm.json
 
 // THE FOLLOWING FN MUST BE DEFINED FIRST (BEFORE USING BELOW)
 
-function parseLOG(d) {
+// function parseLOG(d) {
 
-console.log(d);
+// console.log(d);
 
-}
+// }
 
 // We supply this function to the d3.text() method in this way:
 
@@ -147,13 +147,14 @@ console.log(d);
     
 //}
 
-d3.csv("datasets/cities-sm.csv").then(function(data));
+d3.csv("datasets/cities-sm.csv").then(function(data) {
 
 
     
     // This accesses the first row of the csv dataset
 
     console.log(data[0]);
+})
 
     // Change values using the .forEach() method that loops
     // through the rows of the dataset. In this way, you 
