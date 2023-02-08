@@ -1,11 +1,3 @@
-import {db} from '@observablehq/the-moma-collection-data-exploration'
-
-import {db} from "@observablehq/the-moma-collection-data"
-
-import {DuckDBClient} from "@cmudig/duckdb"
-
-import {getArtworks} from '@observablehq/TheMoMACollection'
-
 import {arts} from "@observablehq/the-moma-collection-data"
 
 db = DuckDBClient.of([
