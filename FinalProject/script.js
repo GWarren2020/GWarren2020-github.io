@@ -1,4 +1,15 @@
-import {arts} from "@observablehq/the-moma-collection-data"
+artists = d3.csv("https://media.githubusercontent.com/media/MuseumofModernArt/collection/master/Artists.csv")
+
+artworks = d3.json("https://media.githubusercontent.com/media/MuseumofModernArt/collection/master/Artworks.json")
+
+
+lookup = ConstituentIDToObjectIDLookup = d3.merge(
+  artworks.map((d) =>
+    d.ConstituentID.map((e) => {
+      return { ConstituentID: e, ObjectID: d.ObjectID };
+    })
+  )
+)
 
 db = DuckDBClient.of([
     FileAttachment("artworks.parquet"),
