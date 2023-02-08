@@ -1,3 +1,5 @@
+// A NOTE ON COMMENTING... TO COMMENT MULTIPLE LINES, HIGHLIGHT THEN USE CMND BACKSLASH
+
 /*
 
 The following code is commented out. It illustrates basic techniques for
@@ -46,11 +48,11 @@ Dependents: D3, file.txt, cities-sm.csv, countrycode-sm.json
 
 // THE FOLLOWING FN MUST BE DEFINED FIRST (BEFORE USING BELOW)
 
-//function parseLOG(d) {
+function parseLOG(d) {
 
-//console.log(d);
+console.log(d);
 
-//}
+}
 
 // We supply this function to the d3.text() method in this way:
 
@@ -139,11 +141,11 @@ Dependents: D3, file.txt, cities-sm.csv, countrycode-sm.json
 //       change you make at one point acts on the data it receives from a change
 //       in a previous point.  
 
-function parseLOG(d) {
+// function parseLOG(d) {
 
-    console.log(d);
+    //console.log(d);
     
-}
+//}
 
 d3.csv("datasets/cities-sm.csv").then(parseLOG);
 
@@ -164,7 +166,7 @@ d3.csv("datasets/cities-sm.csv").then(parseLOG);
     //      b. Use the unary operator +
     //  The following function uses method (b).
 
-    data.forEach( function(d) {
+    data.forEach(function(d) {
 
     //     // Here, we alter the keys "population" and "land area" only.
     //     // Thus, we leave "city" and "state" as they are.
