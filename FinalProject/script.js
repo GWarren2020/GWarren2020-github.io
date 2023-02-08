@@ -8,3 +8,10 @@ function parseLOG(d) {
 
 
 
+d3.csv("artworks.csv").then(parseLOG);
+
+function parseLOG(d) {
+
+    console.log(d);
+    
+}
