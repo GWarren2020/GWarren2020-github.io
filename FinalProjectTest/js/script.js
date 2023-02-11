@@ -12,7 +12,14 @@
    .append("g")
    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+
+function parseLOG(d) {
+
+console.log(d);
+}
+
 // load csv dataset 'artworks'
+
 d3.csv("data/artworks.csv").then(parseLOG);
 
 function parseLOG(d) {
