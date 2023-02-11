@@ -13,17 +13,46 @@
    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 
-function parseLOG(d) {
+// function parseLOG(d) {
 
-console.log(d);
-}
+// console.log(d);
+// }
 
-// load csv dataset 'artworks'
+// // load csv dataset 'artworks'
 
-d3.csv("data/artworks.csv").then(parseLOG);
+// d3.csv("data/ArtistArtworkCountTop100.csv").then(parseLOG);
 
-function parseLOG(d) {
+// function parseLOG(d) {
 
-console.log(d);
+// console.log(d);
     
-}
+// }
+
+//Read the data
+let promises = [d3.csv("data/ArtistArtworkCountTop100.csv")];
+let allData = [];
+
+// Promise.all(promises).then(function (data) {
+//     data.forEach(function (eachDataset) {
+//       eachDataset.forEach(function (d) {
+//         d["Poverty Rate (%)"] = +d["Poverty Rate (%)"];
+//         d["Year"] = new Date(d["Year"]);
+//         if (
+//           d.hasOwnProperty(
+//             "Adult literacy, 25 or more years old (% of population aged 25 or more)"
+//           )
+//         ) {
+//           d[
+//             "Adult literacy, 25 or more years old (% of population aged 25 or more)"
+//           ] = +d[
+//             "Adult literacy, 25 or more years old (% of population aged 25 or more)"
+//           ];
+//         }
+//       });
+//     });
+  
+//     allData = data;
+  
+//     updateChart(allData);
+//   });
+
