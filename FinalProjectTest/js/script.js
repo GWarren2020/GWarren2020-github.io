@@ -4,7 +4,8 @@
  height = 400 - margin.top - margin.bottom;
 
  // The g element keeps everything to do with the svg together and so it can be moved around as one.
- let svg = d3.select("#my_dataviz")
+ let svg = d3
+   .select("#my_dataviz")
    .append("svg")
    .attr("width", width + margin.left + margin.right)
    .attr("height", height + margin.top + margin.bottom)
