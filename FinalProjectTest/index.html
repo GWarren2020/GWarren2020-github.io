@@ -3,6 +3,7 @@
     <head>
 
     <!-- ADD ATTRIBUTIONS, CITATIONS, ETC. -->
+    <!-- ADD LIFE EXPECTANCY, POPULATION AND GDP PER CAPITA INTO TOOLTIP -->
 
     <meta charset=”utf-8” />
     <title>Gapminder Life Expectancy vs GDP Bubbleplot (2007)</title>
@@ -114,7 +115,7 @@
           .duration(200)
         tooltip
           .style("opacity", 1)
-          .html("Country: " + d.country)
+          .html("Country: " + d.country + "<br/> Population: " + d.pop + "<br/> Life Expectancy: " + d.lifeExp + "<br/> GDP per Capita: " + d.gdpPercap)
           .style("left", (event.x)/2 + "px")
           .style("top", (event.y)/2-50 + "px")
       }
