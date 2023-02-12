@@ -3,7 +3,7 @@
     <head>
 
     <!-- ADD ATTRIBUTIONS, CITATIONS, ETC. -->
-    
+
     <meta charset=”utf-8” />
     <title>Gapminder Life Expectancy vs GDP Bubbleplot (2007)</title>
 
@@ -115,6 +115,7 @@
         tooltip
           .style("opacity", 1)
           .html("Country: " + d.country)
+          .html("lifeExp: " + d.lifeExp)
           .style("left", (event.x)/2 + "px")
           .style("top", (event.y)/2-50 + "px")
       }
