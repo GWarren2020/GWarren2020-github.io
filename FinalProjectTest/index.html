@@ -8,6 +8,7 @@
     <script src="https://d3js.org/d3.v6.js"></script>
     </head>
 
+    
     <body>
 
     <!-- Add internal CSS stylesheet: change stroke color of circle on hover (white -> black) -->
@@ -22,11 +23,12 @@
     }
      </style>
 
+
     <!-- Create a div where the graph will be placed -->
     <div id="my_dataviz"></div>
         
-    <script>
 
+    <script>
     // set the dimensions and margins of the graph
     const margin = {top: 40, right: 150, bottom: 60, left: 30},
         width = 500 - margin.left - margin.right,
@@ -40,7 +42,7 @@
       .append("g")
         .attr("transform", `translate(${margin.left},${margin.top})`);
     
-    //Read the data
+    //Read the data (2007 data parsed from original multiyear Gapminder data)
     d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/4_ThreeNum.csv").then( function(data) {
     
       // ---------------------------//
@@ -240,9 +242,7 @@
             .on("mouseover", highlight)
             .on("mouseleave", noHighlight)
       })
-    
     </script>
         
-
     </body>
 </html>
