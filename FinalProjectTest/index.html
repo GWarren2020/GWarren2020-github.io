@@ -51,6 +51,9 @@
     //Read the data (2007 data parsed from original multiyear Gapminder data)
     d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/4_ThreeNum.csv").then( function(data) {
     
+      // The variable `data` is binded to whatever the CSV file contains.
+      console.log(data);
+
       // ---------------------------//
       //       AXIS  AND SCALE      //
       // ---------------------------//
