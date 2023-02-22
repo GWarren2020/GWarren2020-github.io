@@ -37,7 +37,18 @@ const lifeExp = {
 
 console.log(lifeExp.min, lifeExp.max);
 
-// 4. 
+// 4. create scales
+
+const margin = {top: 50, left: 100, right: 50, bottom: 100};
+
+const xScale = d3.scaleBand()
+    .domain(["1952", "1957", "1962", "1967", "1972", "1977", "1982", "1987", "1992", "1997", "2002", "2007"])
+    .range([margin.left, width - margin.right])
+    .padding(0.5);
+
+d3.scaleLinear()
+    .doman([50, lifeExp.max])
+    .range([height-margin.bottom, margin.top]);
 
 // 5. draw axes
 
