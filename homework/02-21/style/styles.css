@@ -1,0 +1,15 @@
+{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin-right: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#chart {
+    width: 100%;
+    
+}
