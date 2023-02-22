@@ -19,10 +19,18 @@ const svg = d3.select("#chart")
 // 2. filter the data (d3 filter method)
 
 // initialize new variable
-let filtered_data =data.filter(function(d)) {
+let filtered_data = data.filter(function(d) {
+    return d.country === 'United States';
 });
 
-// 3. determine min and max values of variables
+// 3. standard syntax to determine min and max values of variables; '+' converts a string to a number
+
+d3.min(filtered_data, function(d) { return +d.lifeExp; })
+d3.max(filtered_data, function(d) { return +d.lifeExp; })
+
+const lifeExp = {
+
+}
 
 // 4. 
 
