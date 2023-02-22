@@ -380,8 +380,8 @@ function bubbleChart() {
   // Load the data.
   d3.csv('data/gates_money.csv', display);
 
-  // Binding the variable `data` to whatever the CSV file contains.
-  console.log(display);
+  // Binding the variable `display` to whatever the CSV file contains.
+ 
   
   // setup the buttons.
   setupButtons();
