@@ -64,4 +64,4 @@ const yAxis = svg.append("g")
 
 // 6. draw bars
 
-// 7. 
+// 7. draw axis labels
