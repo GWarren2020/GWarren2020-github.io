@@ -50,7 +50,17 @@ d3.scaleLinear()
     .doman([50, lifeExp.max])
     .range([height-margin.bottom, margin.top]);
 
+
 // 5. draw axes
+
+const xAxis = svg.append("g")
+    .attr("class", "axis")
+    .call(d3.axisBottom().scale(xScale));
+
+const yAxis = svg.append("g")
+    .attr("class", "axis")
+    .call(d3.axisBottom().scale(yScale));
+
 
 // 6. draw bars
 
