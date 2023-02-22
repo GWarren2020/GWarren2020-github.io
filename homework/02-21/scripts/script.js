@@ -59,7 +59,7 @@ const xAxis = svg.append("g")
 
 const yAxis = svg.append("g")
     .attr("class", "axis")
-    .call(d3.axisBottom().scale(yScale));
+    .call(d3.axisLeft().scale(yScale));
 
 
 // 6. draw bars
