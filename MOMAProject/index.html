@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Museum of Modern Art (MOMA) Final Project</title>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </head>
+  <body>
+    <h1>MOMA Artists (sample dataset of 100)</h1>
+
+<script>
+
+//Read the data (2007 data parsed from original multiyear Gapminder data)
+d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/4_ThreeNum.csv").then( function(data) {
+    
+// The variable `data` is binded to whatever the CSV file contains.
+console.log(data);
+})
+</script>
+
+</body>  
+</html>
