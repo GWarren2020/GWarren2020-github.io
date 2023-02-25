@@ -132,7 +132,7 @@ d3.csv("data/gapminder.csv").then(function(data) {
 
     let filtered_data = data.filter(function(d) {
 
-        return d.country === 'United States';
+        return d.country === 'Sierra Leone';
 
     });
 
