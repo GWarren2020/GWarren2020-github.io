@@ -248,6 +248,7 @@ d3.csv("data/gapminder.csv").then(function(data) {
         .range([margin.left, width - margin.right])
         .padding(0.5);
 
+    // CHANGE Y SCALE FOR SIERRA LEONE DATA
     const yScale = d3.scaleLinear()
         .domain([30, lifeExp.max])
         .range([height - margin.bottom, margin.top]);
