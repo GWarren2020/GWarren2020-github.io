@@ -7,7 +7,7 @@ const width = document.querySelector("#chart").clientWidth;
 const height = document.querySelector("#chart").clientHeight;
 
 console.log(window.innerWidth);
-console.log(docuent.querySelector("#chart")).clientWidth;
+console.log(document.querySelector("#chart")).clientWidth;
 
 // initializing the viewport of the SVG canvas
 // an SVG canvas viewport has a width and height
