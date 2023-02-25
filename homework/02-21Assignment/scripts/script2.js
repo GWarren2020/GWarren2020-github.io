@@ -68,7 +68,7 @@ d3.csv("./data/gapminder.csv").then(function(data) {
 
     // Initializing the viewport of the SVG canvas
     // An SVG Canvas's Viewport has a "width" and "height"
-    const svg = d3.select("#chart")
+    const svg = d3.select("#chart2")
         .append("svg")
         .attr("width", width)
         .attr("height", height);
