@@ -13,7 +13,7 @@ console.log(document.querySelector("#chart")).clientWidth;
 // an SVG canvas viewport has a width and height
 const svg = d3.select("#chart")
     .append("svg")
-    .attr("width", width);
+    .attr("width", width)
     .attr("height", height);
 
 
