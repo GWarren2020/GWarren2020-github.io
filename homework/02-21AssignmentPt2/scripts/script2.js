@@ -249,7 +249,7 @@ d3.csv("data/gapminder.csv").then(function(data) {
         .padding(0.5);
 
     const yScale = d3.scaleLinear()
-        .domain([50, lifeExp.max])
+        .domain([30, lifeExp.max])
         .range([height - margin.bottom, margin.top]);
 
     /*
