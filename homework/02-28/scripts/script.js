@@ -136,6 +136,16 @@ d3.json("data/world-alpha3.json").then(function(world) {
 
     // TO DO
 
+    map.selectAll("circle")
+      .data(points)
+      .enter()
+      .append("circle")
+      .attr("r", 4)
+      .attr("fill", "#201E20")
+      .attr("transform", function(d){
+        return "translate(" + proj(d.coords) + ")";
+      });
+      
     /**
      * 11. D3 Zoom and Pan
      * 
