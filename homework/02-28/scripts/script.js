@@ -145,7 +145,7 @@ d3.json("data/world-alpha3.json").then(function(world) {
       .attr("transform", function(d){
         return "translate(" + proj(d.coords) + ")";
       });
-      
+
     /**
      * 11. D3 Zoom and Pan
      * 
@@ -159,4 +159,3 @@ d3.json("data/world-alpha3.json").then(function(world) {
 
     // TO DO
 
-});
