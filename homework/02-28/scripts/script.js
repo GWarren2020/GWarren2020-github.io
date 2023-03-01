@@ -81,6 +81,22 @@ d3.json("data/world-alpha3.json").then(function(world) {
 
   let path = d3.geoPath().projection(proj);
 
+  // D3 JOIN PATTERN APPROACH, BINDING 'PATH' SVG SHAPES INTO geoJSON DATA
+  map.selectAll("path")
+    .data(geoJSON.features)
+    .enter()
+    .append("path")
+  // USE THE 'D' ATTRIBUTE IN SVG GRAPHICS TO DEFINE A PATH TO BE DRAWN
+  // 'D' IS A PRESENTATION ATTRIBUTE, WE CAN ALSO USE CSS PROPERTIES ON IT
+    .attr("d", path)
+  // EVERYTHING FOLLOWING IS PRESENTATIONAL
+
+    .attr("fill", "#FCEDDA")
+    .attr("vector-effect", "non-scaling-stroke")
+    .attr("stroke", "FC766AFF")
+    .attr("stroke-width", "0.5px")
+    
+
     // TO DO
     
     /**
