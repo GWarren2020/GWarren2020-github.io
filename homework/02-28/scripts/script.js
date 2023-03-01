@@ -6,6 +6,7 @@ const width = window.innerWidth, height = window.innerHeight;
 // Try to use these two variables for `width` and `height` instead and
 // notice what happens to the size of the map visualization. Can you tell why?
 
+// VIEWPORT INFORMATION FOR A SPECIFIC SVG CANVAS
 const width = document.querySelector("#viz").clientWidth;
 const height = document.querySelector("#viz").clientHeight;
 
