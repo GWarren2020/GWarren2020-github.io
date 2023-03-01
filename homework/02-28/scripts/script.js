@@ -159,7 +159,7 @@ d3.json("data/world-alpha3.json").then(function(world) {
 
     function zoomed(e) {
       map.attr("transform", e.transform);
-    }
+    };
 
     let zoom = d3.zoom()
 
