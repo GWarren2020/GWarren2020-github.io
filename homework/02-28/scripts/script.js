@@ -71,7 +71,7 @@ d3.json("data/world-alpha3.json").then(function(world) {
 
     // TO DO
 
-  let proj = d3.geomercator().fitsize([width, height], geoJSON);
+  let proj = d3.geoMercator().fitSize([width, height], geoJSON);
 
     /**
      * 8. Geographical Path Constructor
