@@ -115,12 +115,12 @@ d3.json("data/world-alpha3.json").then(function(world) {
 
     var points = {
       {
-        "name"; "Boston", 
-        "coords"; [-71.0589, 42.3601]
+        "name": "Boston", 
+        "coords": [-71.0589, 42.3601]
       }
       {
-        "name"; "London",
-        "coords"; [-0.1278, 51.5074]
+        "name": "London",
+        "coords": [-0.1278, 51.5074]
       }
     };
 
