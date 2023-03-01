@@ -157,5 +157,19 @@ d3.json("data/world-alpha3.json").then(function(world) {
      * Documentation: https://github.com/d3/d3-zoom
      */
 
+    function zoomed(e)
+
+  let zoom = d3.zoom()
+    // Top-left of browser window is 0, 0
+    // Bottom-right of browser window: [width, height]
+    .translateExtent([[0, 0], [width, height]])
+
+    .scaleExtent([1, 15])
+
+    // The .on() method is D3's standard event listener, like user clicks, mouseover, etc.
+    .on("zoom", zoomed);
+      
+    svg.call(zoom);
+
     // TO DO
 });
