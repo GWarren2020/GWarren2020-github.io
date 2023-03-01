@@ -40,7 +40,7 @@ d3.json("data/world-alpha3.json").then(function(world) {
      * (b) ID, which in this case is the ISO code of a country
      * (c) Properties, in this case `name` and `iso`. e.g., name: "Argentina", iso: "ARG"
     */
-
+  let geoJSON = topojson.feature(world, world.objects.countries);
     // TO DO
     
     // 6.
