@@ -79,6 +79,8 @@ d3.json("data/world-alpha3.json").then(function(world) {
      * 
      */
 
+  let path = d3.geoPath().projection(proj);
+
     // TO DO
     
     /**
