@@ -41,6 +41,9 @@ d3.json("data/world-alpha3.json").then(function(world) {
      * (c) Properties, in this case `name` and `iso`. e.g., name: "Argentina", iso: "ARG"
     */
   let geoJSON = topojson.feature(world, world.objects.countries);
+
+  console.log(geoJSON);
+  
     // TO DO
     
     // 6.
