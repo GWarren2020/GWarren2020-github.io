@@ -28,7 +28,7 @@ d3.select("#ocean")
   .attr("width", width)
   .attr("height", height);
 
-// 4. Here start building the geographical map by first loading a TopoJSON file.
+// 4. Here start building the geographical map by first loading the TopoJSON file ('world').
 
 d3.json("data/world-alpha3.json").then(function(world) {
 
