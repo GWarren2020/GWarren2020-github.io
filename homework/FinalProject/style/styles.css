@@ -289,7 +289,7 @@ nav ul li {
 }
 .text_column {
 	width: 100%;
-	text-align: justify;
+	text-align: left;
 	padding-top: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
