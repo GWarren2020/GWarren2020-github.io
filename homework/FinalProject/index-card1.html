@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CARD 1 VIZ</title>
+<link href="style/styles-card1.css" rel="stylesheet" type="text/css">
+<!-- The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. -->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Navigation -->
+  <header> <a href="">
+    <h4 class="logo">ARTG5330 Final Project</h4>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <h2 class="hero_header">The MoMA Collection</h2><br>
+    <p class="tagline">Description of this page's visualization</p>
+  </section>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2 class="hidden">About</h2>
+    <p class="text_column">Narrative overview of this page's content, data, visualization, design decisions, encoding strategies, etc.
+        </p>
+    <p class="text_column">Narrative overview of this page's content, data, visualization, design decisions, encoding strategies, etc.<br>
+        <br><br>
+        </p>
+  </section>
+
+</div> 
+
+  <!-- Parallax Section -->
+  <section class="banner">
+    <h2 class="parallax">Title of this visualization</h2>
+    <p class="parallax_description">Brief description of this vizualization </p>
+	  
+	  <!-- CENTER THE EMBEDED DIV ELEMENT IN THE CANVAS USING DIV STYLE-->
+	  <div style="display: flex; justify-content: center; align-items: center;">
+	  <div id="observablehq-artistScatterplot-ebc1b701"></div>
+	  </div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+import define from "https://api.observablehq.com/d/88599f3d117009c4.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "artistScatterplot") return new Inspector(document.querySelector("#observablehq-artistScatterplot-ebc1b701"));
+});
+</script>
+	  
+  </section>
+ 
+  <!-- Copyrights Section -->
+<div class="copyright">Greg Maher 2023</div>
+</div>
+<!-- Main Container Ends -->
+</body>
+</html>
