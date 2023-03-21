@@ -3,7 +3,7 @@ const width = document.querySelector("#cntr").clientWidth;
 const LIMIT = 10;
 
 const counter = [1];
-
+// select 'cntr' div id in index
 const svg = d3.select("#cntr")
     .append("svg")
     .attr("width", width)
