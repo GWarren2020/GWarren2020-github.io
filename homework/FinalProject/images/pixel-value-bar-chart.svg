@@ -3,106 +3,107 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 500 392.9" style="enable-background:new 0 0 500 392.9;" xml:space="preserve">
 <style type="text/css">
-	.st0{font-family:'LucidaGrande';}
-	.st1{font-size:7.3261px;}
-	.st2{font-size:9.5239px;}
-	.st3{fill:#1A1A1A;}
-	.st4{fill:#1A3333;}
-	.st5{fill:#1A334D;}
-	.st6{fill:#333333;}
-	.st7{fill:#33334D;}
-	.st8{fill:#664D33;}
-	.st9{fill:#1A1A33;}
-	.st10{fill:#1A331A;}
-	.st11{fill:#334D66;}
-	.st12{fill:#334D4D;}
-	.st13{fill:#001A1A;}
-	.st14{fill:#4D6680;}
-	.st15{fill:#4D6666;}
-	.st16{fill:#33331A;}
-	.st17{fill:#668080;}
-	.st18{fill:#4D331A;}
-	.st19{fill:#4D4D33;}
-	.st20{fill:#668099;}
-	.st21{fill:#806633;}
-	.st22{fill:#809999;}
+	.st0{fill:#4D4D4F;}
+	.st1{font-family:'LucidaGrande';}
+	.st2{font-size:7px;}
+	.st3{font-size:8px;}
+	.st4{fill:#1A1A1A;}
+	.st5{fill:#1A3333;}
+	.st6{fill:#1A334D;}
+	.st7{fill:#333333;}
+	.st8{fill:#33334D;}
+	.st9{fill:#664D33;}
+	.st10{fill:#1A1A33;}
+	.st11{fill:#1A331A;}
+	.st12{fill:#334D66;}
+	.st13{fill:#334D4D;}
+	.st14{fill:#001A1A;}
+	.st15{fill:#4D6680;}
+	.st16{fill:#4D6666;}
+	.st17{fill:#33331A;}
+	.st18{fill:#668080;}
+	.st19{fill:#4D331A;}
+	.st20{fill:#4D4D33;}
+	.st21{fill:#668099;}
+	.st22{fill:#806633;}
+	.st23{fill:#809999;}
 </style>
 <g>
-	<polyline points="109.3,24.1 104.5,24.1 104.5,24.9 109.3,24.9 	"/>
-	<polyline points="109.3,40.4 104.5,40.4 104.5,41.1 109.3,41.1 	"/>
-	<polyline points="109.3,56.6 104.5,56.6 104.5,57.3 109.3,57.3 	"/>
-	<polyline points="109.3,72.8 104.5,72.8 104.5,73.5 109.3,73.5 	"/>
-	<polyline points="109.3,89 104.5,89 104.5,89.8 109.3,89.8 	"/>
-	<polyline points="109.3,105.2 104.5,105.2 104.5,106 109.3,106 	"/>
-	<polyline points="109.3,121.5 104.5,121.5 104.5,122.2 109.3,122.2 	"/>
-	<polyline points="109.3,137.7 104.5,137.7 104.5,138.4 109.3,138.4 	"/>
-	<polyline points="109.3,153.9 104.5,153.9 104.5,154.6 109.3,154.6 	"/>
-	<polyline points="109.3,170.1 104.5,170.1 104.5,170.9 109.3,170.9 	"/>
-	<polyline points="109.3,186.3 104.5,186.3 104.5,187.1 109.3,187.1 	"/>
-	<polyline points="109.3,202.6 104.5,202.6 104.5,203.3 109.3,203.3 	"/>
-	<polyline points="109.3,218.8 104.5,218.8 104.5,219.5 109.3,219.5 	"/>
-	<polyline points="109.3,235 104.5,235 104.5,235.7 109.3,235.7 	"/>
-	<polyline points="109.3,251.2 104.5,251.2 104.5,252 109.3,252 	"/>
-	<polyline points="109.3,267.4 104.5,267.4 104.5,268.2 109.3,268.2 	"/>
-	<polyline points="109.3,283.7 104.5,283.7 104.5,284.4 109.3,284.4 	"/>
-	<polyline points="109.3,299.9 104.5,299.9 104.5,300.6 109.3,300.6 	"/>
-	<polyline points="109.3,316.1 104.5,316.1 104.5,316.8 109.3,316.8 	"/>
-	<polyline points="109.3,332.3 104.5,332.3 104.5,333.1 109.3,333.1 	"/>
-	<text transform="matrix(1 0 0 1 44.7879 27.1044)" class="st0 st1">rgb(26, 26, 26)</text>
-	<text transform="matrix(1 0 0 1 44.7879 43.3241)" class="st0 st1">rgb(26, 51, 51)</text>
-	<text transform="matrix(1 0 0 1 44.7879 59.5439)" class="st0 st1">rgb(26, 51, 77)</text>
-	<text transform="matrix(1 0 0 1 44.7879 75.7646)" class="st0 st1">rgb(51, 51, 51)</text>
-	<text transform="matrix(1 0 0 1 44.7879 91.9843)" class="st0 st1">rgb(51, 51, 77)</text>
-	<text transform="matrix(1 0 0 1 40.2767 108.2035)" class="st0 st1">rgb(102, 77, 51)</text>
-	<text transform="matrix(1 0 0 1 44.7879 124.4233)" class="st0 st1">rgb(26, 26, 51)</text>
-	<text transform="matrix(1 0 0 1 44.7879 140.643)" class="st0 st1">rgb(26, 51, 26)</text>
-	<text transform="matrix(1 0 0 1 40.2767 156.8627)" class="st0 st1">rgb(51, 77, 102)</text>
-	<text transform="matrix(1 0 0 1 44.7879 173.0834)" class="st0 st1">rgb(51, 77, 77)</text>
-	<text transform="matrix(1 0 0 1 49.2972 189.3041)" class="st0 st1">rgb(0, 26, 26)</text>
-	<text transform="matrix(1 0 0 1 35.7674 205.5229)" class="st0 st1">rgb(77, 102, 128)</text>
-	<text transform="matrix(1 0 0 1 35.7674 221.7436)" class="st0 st1">rgb(77, 102, 102)</text>
-	<text transform="matrix(1 0 0 1 44.7879 237.9623)" class="st0 st1">rgb(51, 51, 26)</text>
-	<text transform="matrix(1 0 0 1 31.2562 254.183)" class="st0 st1">rgb(102, 128, 128)</text>
-	<text transform="matrix(1 0 0 1 44.7879 270.4027)" class="st0 st1">rgb(77, 51, 26)</text>
-	<text transform="matrix(1 0 0 1 44.7879 286.6225)" class="st0 st1">rgb(77, 77, 51)</text>
-	<text transform="matrix(1 0 0 1 31.2562 302.8422)" class="st0 st1">rgb(102, 128, 153)</text>
-	<text transform="matrix(1 0 0 1 35.7674 319.0619)" class="st0 st1">rgb(128, 102, 51)</text>
-	<text transform="matrix(1 0 0 1 31.2562 335.2826)" class="st0 st1">rgb(128, 153, 153)</text>
-	<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 18.7093 190.7983)" class="st0 st2">color</text>
-	<polyline points="109,344.9 109,349.7 109.7,349.7 109.7,344.9 	"/>
-	<polyline points="166.6,344.9 166.6,349.7 167.3,349.7 167.3,344.9 	"/>
-	<polyline points="224.2,344.9 224.2,349.7 224.9,349.7 224.9,344.9 	"/>
-	<polyline points="281.7,344.9 281.7,349.7 282.5,349.7 282.5,344.9 	"/>
-	<polyline points="339.3,344.9 339.3,349.7 340.1,349.7 340.1,344.9 	"/>
-	<polyline points="396.9,344.9 396.9,349.7 397.7,349.7 397.7,344.9 	"/>
-	<polyline points="454.5,344.9 454.5,349.7 455.3,349.7 455.3,344.9 	"/>
-	<text transform="matrix(1 0 0 1 107.0828 357.9096)" class="st0 st1">0</text>
-	<text transform="matrix(1 0 0 1 154.5282 357.9096)" class="st0 st1">10,000</text>
-	<text transform="matrix(1 0 0 1 212.1185 357.9096)" class="st0 st1">20,000</text>
-	<text transform="matrix(1 0 0 1 269.7098 357.9096)" class="st0 st1">30,000</text>
-	<text transform="matrix(1 0 0 1 327.3016 357.9096)" class="st0 st1">40,000</text>
-	<text transform="matrix(1 0 0 1 384.8924 357.9096)" class="st0 st1">50,000</text>
-	<text transform="matrix(1 0 0 1 442.4832 357.9096)" class="st0 st1">60,000</text>
-	<text transform="matrix(1 0 0 1 244.8748 374.9242)" class="st0 st2">length (frequency)</text>
-	<rect x="109.3" y="17.2" class="st3" width="381.2" height="14.6"/>
-	<rect x="109.3" y="33.4" class="st4" width="115.5" height="14.6"/>
-	<rect x="109.3" y="49.7" class="st5" width="61.9" height="14.6"/>
-	<rect x="109.3" y="65.9" class="st6" width="57.5" height="14.6"/>
-	<rect x="109.3" y="82.1" class="st7" width="53.3" height="14.6"/>
-	<rect x="109.3" y="98.3" class="st8" width="49" height="14.6"/>
-	<rect x="109.3" y="114.5" class="st9" width="46.4" height="14.6"/>
-	<rect x="109.3" y="130.7" class="st10" width="42.5" height="14.6"/>
-	<rect x="109.3" y="147" class="st11" width="42.4" height="14.6"/>
-	<rect x="109.3" y="163.2" class="st12" width="40.4" height="14.6"/>
-	<rect x="109.3" y="179.4" class="st13" width="40.3" height="14.6"/>
-	<rect x="109.3" y="195.6" class="st14" width="38.5" height="14.6"/>
-	<rect x="109.3" y="211.8" class="st15" width="38" height="14.6"/>
-	<rect x="109.3" y="228.1" class="st16" width="32.2" height="14.6"/>
-	<rect x="109.3" y="244.3" class="st17" width="30" height="14.6"/>
-	<rect x="109.3" y="260.5" class="st18" width="20.8" height="14.6"/>
-	<rect x="109.3" y="276.7" class="st19" width="15.7" height="14.6"/>
-	<rect x="109.3" y="292.9" class="st20" width="13.1" height="14.6"/>
-	<rect x="109.3" y="309.2" class="st21" width="12.1" height="14.6"/>
-	<rect x="109.3" y="325.4" class="st22" width="11.8" height="14.6"/>
+	<polyline class="st0" points="109.3,24.1 104.5,24.1 104.5,24.9 109.3,24.9 	"/>
+	<polyline class="st0" points="109.3,40.4 104.5,40.4 104.5,41.1 109.3,41.1 	"/>
+	<polyline class="st0" points="109.3,56.6 104.5,56.6 104.5,57.3 109.3,57.3 	"/>
+	<polyline class="st0" points="109.3,72.8 104.5,72.8 104.5,73.5 109.3,73.5 	"/>
+	<polyline class="st0" points="109.3,89 104.5,89 104.5,89.8 109.3,89.8 	"/>
+	<polyline class="st0" points="109.3,105.2 104.5,105.2 104.5,106 109.3,106 	"/>
+	<polyline class="st0" points="109.3,121.5 104.5,121.5 104.5,122.2 109.3,122.2 	"/>
+	<polyline class="st0" points="109.3,137.7 104.5,137.7 104.5,138.4 109.3,138.4 	"/>
+	<polyline class="st0" points="109.3,153.9 104.5,153.9 104.5,154.6 109.3,154.6 	"/>
+	<polyline class="st0" points="109.3,170.1 104.5,170.1 104.5,170.9 109.3,170.9 	"/>
+	<polyline class="st0" points="109.3,186.3 104.5,186.3 104.5,187.1 109.3,187.1 	"/>
+	<polyline class="st0" points="109.3,202.6 104.5,202.6 104.5,203.3 109.3,203.3 	"/>
+	<polyline class="st0" points="109.3,218.8 104.5,218.8 104.5,219.5 109.3,219.5 	"/>
+	<polyline class="st0" points="109.3,235 104.5,235 104.5,235.7 109.3,235.7 	"/>
+	<polyline class="st0" points="109.3,251.2 104.5,251.2 104.5,252 109.3,252 	"/>
+	<polyline class="st0" points="109.3,267.4 104.5,267.4 104.5,268.2 109.3,268.2 	"/>
+	<polyline class="st0" points="109.3,283.7 104.5,283.7 104.5,284.4 109.3,284.4 	"/>
+	<polyline class="st0" points="109.3,299.9 104.5,299.9 104.5,300.6 109.3,300.6 	"/>
+	<polyline class="st0" points="109.3,316.1 104.5,316.1 104.5,316.8 109.3,316.8 	"/>
+	<polyline class="st0" points="109.3,332.3 104.5,332.3 104.5,333.1 109.3,333.1 	"/>
+	<text transform="matrix(1 0 0 1 44.7879 27.1044)" class="st0 st1 st2">rgb(26, 26, 26)</text>
+	<text transform="matrix(1 0 0 1 44.7879 43.3241)" class="st0 st1 st2">rgb(26, 51, 51)</text>
+	<text transform="matrix(1 0 0 1 44.7879 59.5439)" class="st0 st1 st2">rgb(26, 51, 77)</text>
+	<text transform="matrix(1 0 0 1 44.7879 75.7646)" class="st0 st1 st2">rgb(51, 51, 51)</text>
+	<text transform="matrix(1 0 0 1 44.7879 91.9843)" class="st0 st1 st2">rgb(51, 51, 77)</text>
+	<text transform="matrix(1 0 0 1 40.2767 108.2035)" class="st0 st1 st2">rgb(102, 77, 51)</text>
+	<text transform="matrix(1 0 0 1 44.7879 124.4233)" class="st0 st1 st2">rgb(26, 26, 51)</text>
+	<text transform="matrix(1 0 0 1 44.7879 140.6431)" class="st0 st1 st2">rgb(26, 51, 26)</text>
+	<text transform="matrix(1 0 0 1 40.2767 156.8627)" class="st0 st1 st2">rgb(51, 77, 102)</text>
+	<text transform="matrix(1 0 0 1 44.7879 173.0834)" class="st0 st1 st2">rgb(51, 77, 77)</text>
+	<text transform="matrix(1 0 0 1 49.2972 189.3041)" class="st0 st1 st2">rgb(0, 26, 26)</text>
+	<text transform="matrix(1 0 0 1 35.7674 205.5229)" class="st0 st1 st2">rgb(77, 102, 128)</text>
+	<text transform="matrix(1 0 0 1 35.7674 221.7437)" class="st0 st1 st2">rgb(77, 102, 102)</text>
+	<text transform="matrix(1 0 0 1 44.7879 237.9623)" class="st0 st1 st2">rgb(51, 51, 26)</text>
+	<text transform="matrix(1 0 0 1 31.2562 254.183)" class="st0 st1 st2">rgb(102, 128, 128)</text>
+	<text transform="matrix(1 0 0 1 44.7879 270.4027)" class="st0 st1 st2">rgb(77, 51, 26)</text>
+	<text transform="matrix(1 0 0 1 44.7879 286.6226)" class="st0 st1 st2">rgb(77, 77, 51)</text>
+	<text transform="matrix(1 0 0 1 31.2562 302.8422)" class="st0 st1 st2">rgb(102, 128, 153)</text>
+	<text transform="matrix(1 0 0 1 35.7674 319.0619)" class="st0 st1 st2">rgb(128, 102, 51)</text>
+	<text transform="matrix(1 0 0 1 31.2562 335.2826)" class="st0 st1 st2">rgb(128, 153, 153)</text>
+	<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 18.7094 190.7979)" class="st0 st1 st3">Color</text>
+	<polyline class="st0" points="109,344.9 109,349.7 109.7,349.7 109.7,344.9 	"/>
+	<polyline class="st0" points="166.6,344.9 166.6,349.7 167.3,349.7 167.3,344.9 	"/>
+	<polyline class="st0" points="224.2,344.9 224.2,349.7 224.9,349.7 224.9,344.9 	"/>
+	<polyline class="st0" points="281.7,344.9 281.7,349.7 282.5,349.7 282.5,344.9 	"/>
+	<polyline class="st0" points="339.3,344.9 339.3,349.7 340.1,349.7 340.1,344.9 	"/>
+	<polyline class="st0" points="396.9,344.9 396.9,349.7 397.7,349.7 397.7,344.9 	"/>
+	<polyline class="st0" points="454.5,344.9 454.5,349.7 455.3,349.7 455.3,344.9 	"/>
+	<text transform="matrix(1 0 0 1 107.0828 357.9097)" class="st1 st2">0</text>
+	<text transform="matrix(1 0 0 1 154.5282 357.9097)" class="st0 st1 st2">10,000</text>
+	<text transform="matrix(1 0 0 1 212.1185 357.9097)" class="st0 st1 st2">20,000</text>
+	<text transform="matrix(1 0 0 1 269.7098 357.9097)" class="st0 st1 st2">30,000</text>
+	<text transform="matrix(1 0 0 1 327.3016 357.9097)" class="st0 st1 st2">40,000</text>
+	<text transform="matrix(1 0 0 1 384.8924 357.9097)" class="st0 st1 st2">50,000</text>
+	<text transform="matrix(1 0 0 1 442.4832 357.9097)" class="st0 st1 st2">60,000</text>
+	<text transform="matrix(1 0 0 1 244.8748 374.9242)" class="st0 st1 st3">Length (frequency)</text>
+	<rect x="109.3" y="17.2" class="st4" width="381.2" height="14.6"/>
+	<rect x="109.3" y="33.4" class="st5" width="115.5" height="14.6"/>
+	<rect x="109.3" y="49.7" class="st6" width="61.9" height="14.6"/>
+	<rect x="109.3" y="65.9" class="st7" width="57.5" height="14.6"/>
+	<rect x="109.3" y="82.1" class="st8" width="53.3" height="14.6"/>
+	<rect x="109.3" y="98.3" class="st9" width="49" height="14.6"/>
+	<rect x="109.3" y="114.5" class="st10" width="46.4" height="14.6"/>
+	<rect x="109.3" y="130.7" class="st11" width="42.5" height="14.6"/>
+	<rect x="109.3" y="147" class="st12" width="42.4" height="14.6"/>
+	<rect x="109.3" y="163.2" class="st13" width="40.4" height="14.6"/>
+	<rect x="109.3" y="179.4" class="st14" width="40.3" height="14.6"/>
+	<rect x="109.3" y="195.6" class="st15" width="38.5" height="14.6"/>
+	<rect x="109.3" y="211.8" class="st16" width="38" height="14.6"/>
+	<rect x="109.3" y="228.1" class="st17" width="32.2" height="14.6"/>
+	<rect x="109.3" y="244.3" class="st18" width="30" height="14.6"/>
+	<rect x="109.3" y="260.5" class="st19" width="20.8" height="14.6"/>
+	<rect x="109.3" y="276.7" class="st20" width="15.7" height="14.6"/>
+	<rect x="109.3" y="292.9" class="st21" width="13.1" height="14.6"/>
+	<rect x="109.3" y="309.2" class="st22" width="12.1" height="14.6"/>
+	<rect x="109.3" y="325.4" class="st23" width="11.8" height="14.6"/>
 </g>
 </svg>
