@@ -9,6 +9,4 @@ ARTG530: Visualization Technologies I, Spring 2023
 
 ### Project Description
 
-For this project, I first introduce and briefly discuss works and themes from a selection of Picasso's major artistic periods. I then move on to more specifically address color in the artist's work. In this second section, I present a concise overview of a computational method for extracting and visualizing color value using MoMA's publicly available data, and exploiting D3 in Observable notebooks to compute and display informative and engaging data-driven visualizations and interactive elements.
-
-### Project Description
+This project’s objective is threefold. First, it introduces the viewer to the Museum of Modern Art’s extensive online collection of artworks. Second, it provides the viewer with a concise biographical and thematic overview anchored by a selection of representative works from Picasso's major artistic periods, and supported by both textual and graphic narrative elements. Third, the project’s second and final sections offer the viewer an accessible introductory overview of a computational method for extracting and visualizing color value using MoMA's publicly available data, and exploiting D3 in Observable notebooks to compute and display informative and engaging data-driven visualizations and interactive elements. Moreover, the embedded Observable notebook expands upon the information presented in the preceding section, and invites the viewer to further explore color value extraction and representation through user inputs and D3-driven interactivity.
