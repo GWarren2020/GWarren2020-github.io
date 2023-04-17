@@ -4,7 +4,7 @@
 
 Greg Maher
 
-ARTG530: Visualization Technologies I, Spring 2023
+ARTG5330: Visualization Technologies I, Spring 2023
 <hr>
 
 ### Project Description
