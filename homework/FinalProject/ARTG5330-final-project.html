@@ -95,11 +95,11 @@
 		
 		<center><img src="images/pablo-picasso-old-guitarist 500px.jpeg" width="500" height="750" alt=""/></center><br>
 
-		<p>Using this image an an input, a function is applied for extracting pixel value data, and the image is effectively 'redrawn' pixel by pixel. In order to minimize noise, I'll use a binning method to group and visualize color more effectively. The idea here is to group colors that are very similar, so the concern is not about looking at granular pixel value differences. The binning operation could be applied to extract RGB (red, green, blue) or HSL (hue, saturation, lightness) values, and both binning operations are relatively straightforward now that pixel value data has been extracted. Here I focus on RGB, producing an array sorted by image pixel value 'length' (frequency).</p><br>
+		<p>Using this image an an input, a function is applied for extracting pixel value data, and the image is effectively 'redrawn' pixel by pixel. In order to minimize noise, I'll use a binning method to group and visualize color more effectively. The idea here is to group colors that are very similar, so the concern is not about looking at granular pixel value differences. The binning operation could be applied to extract RGB (red, green, blue) or HSL (hue, saturation, lightness) values, and both binning operations are relatively straightforward once pixel value data has been extracted. Here I focus on RGB, producing an array sorted by image pixel value 'length' (frequency).</p><br>
 		
 		<center><img src="images/old-guitarist-hexbin-500px.png" width="500" height="752" alt=""/></center><br>
 		
-		<p>Similarly, we can now use the computed image pixel values to generate a bar chart of the top 20 color values sorted, again, by pixel value frequency, corresponding to the preceding array. These visualizations allow us to more easily discriminate and understand color values in Picasso's artwork.</p>
+		<p>Similarly, we can now use the computed image pixel values to generate a bar chart of the top 20 color values sorted, again, by pixel value frequency. These visualizations allow us to more easily discriminate and understand color values in Picasso's artwork.</p>
 		
 		<center><img src="images/pixel-value-bar-chart.svg" alt=""/></center><br>
 
